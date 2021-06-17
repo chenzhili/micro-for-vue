@@ -1,0 +1,132 @@
+/* 基本的 tabs 菜单交互 */
+@mixin tabs-interaction($special) {
+  &::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $primary-light-color;
+    bottom: 12px;
+    transition: all 0.1s;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &.active,
+  &:hover {
+    color: $primary-light-color;
+    transition: all 0.1s;
+    @if ($special == "true") {
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 99;
+        bottom: 11px;
+        width: 7px;
+        height: 7px;
+        outline: 2px solid #fff;
+        background: $primary-light-color;
+        transform: rotate(45deg) translate(-15%, 50%);
+        left: 50%;
+      }
+    }
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+@mixin sub-select-icon() {
+  .arrow-down {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("@/assets/myRace/sub_nav.png") no-repeat;
+      width: 15px;
+      height: 8px;
+      left: 5px;
+      top: 8px;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    .arrow-down {
+      &::before {
+        transition: all 0.4s;
+        transform: rotateZ(180deg);
+      }
+    }
+  }
+}
+
+@mixin select-icon() {
+  .el-input__inner {
+    border: 1px solid #222222;
+    color: #222222;
+    &::-webkit-input-placeholder {
+      color: #222222;
+    }
+  }
+  .el-input {
+    width: 192px;
+    height: 40px;
+    border-radius: 5px;
+
+    &.is-focus {
+      .el-input__inner {
+        border: 1px solid #e0585b;
+        color: #e0585b;
+        &::-webkit-input-placeholder {
+          color: #e0585b;
+        }
+      }
+      .el-select__caret {
+        &::before {
+          background: url("@/assets/myRace/select_focus.png") no-repeat;
+        }
+      }
+    }
+  }
+  .el-select__caret {
+    position: relative;
+    transform: unset;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("@/assets/myRace/select.png") no-repeat;
+      width: 16px;
+      height: 16px;
+      top: 12px;
+      left: 0px;
+    }
+    &.is-reverse {
+      transform: unset;
+    }
+  }
+}
+
+@mixin list-in($num) {
+  @keyframes bounce-in {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @for $i from 1 through $num {
+    .list-in:nth-child(#{$i}) {
+      -webkit-animation-delay: ($i * 0.2) + s;
+      animation-delay: ($i * 0.2) + s !important;
+    }
+  }
+  ::deep .list-in{
+    opacity: 0;
+    animation: bounce-in 0.5s forwards;
+  }
+}

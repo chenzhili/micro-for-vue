@@ -1,0 +1,20 @@
+$--color-primary: #E0585B;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger: #f56c6c;
+$--color-info: #909399;
+$--select-option-hover-background: #faf5f5;
+// $--select-option-selected-hover: # !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-plus/lib/theme-chalk/fonts';
+
+@import "~element-plus/packages/theme-chalk/src/index";
+
+.el-carousel__indicators{
+  z-index: 0;
+}
+
+.el-carousel__item.is-active{
+  z-index: 0;
+}

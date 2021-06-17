@@ -1,0 +1,28 @@
+$--color-primary: #E0585B;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger: #f56c6c;
+$--color-info: #909399;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-plus/lib/theme-chalk/fonts';
+$--table-row-hover-background-color: #D7E2F8;
+$--menu-item-hover-fill: transparent !important;
+
+@import "~element-plus/packages/theme-chalk/src/index";
+
+.el-select-dropdown__item:hover{
+  background-color: #FAF5F5;
+}
+
+
+.el-carousel__indicators{
+  z-index: 0;
+}
+
+.el-carousel__item.is-active{
+  z-index: 0;
+}
+.el-menu--popup{
+  background-color: #ffffff !important;
+}

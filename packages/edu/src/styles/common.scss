@@ -1,0 +1,28 @@
+@mixin contain {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+
+  :deep .el-input__inner {
+    background-color: #f4f4f4;
+    &:focus {
+      border: 1px solid #c0c4cc;
+      border-color: #222;
+    }
+    &:hover {
+      border-color: #222;
+    }
+  }
+  .el-input {
+    width: 172px;
+  }
+  :deep .el-select .el-input {
+    width: 120px;
+  }
+  :deep .el-date-editor.el-input {
+    width: 148px;
+  }
+}

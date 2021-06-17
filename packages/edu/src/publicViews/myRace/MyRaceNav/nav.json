@@ -1,0 +1,454 @@
+
+{
+    "1": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "aStocksDeal" },
+              { "label": "查撤委托", "name": "aQueryRepeal" },
+              { "label": "委托信息", "name": "aDelegationMsg" },
+              { "label": "成交信息", "name": "aBargainMsg" },
+              { "label": "资金流水", "name": "aFundCondition" },
+              { "label": "查询交割单", "name": "deliveryOrder" },
+              { "label": "银证转账", "name": "aBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "2": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "HSDeal" },
+              { "label": "查撤委托", "name": "HSQueryRepeal" },
+              { "label": "委托信息", "name": "HSDelegationMsg" },
+              { "label": "成交信息", "name": "HSBargainMsg" },
+              { "label": "资金流水", "name": "HSFundCondition" },
+              { "label": "查询交割单", "name": "HSDeliveryOrder" },
+              { "label": "银证转账", "name": "HSBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "3": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "bondDeal" },
+              { "label": "查撤委托", "name": "bondQueryRepeal" },
+              { "label": "委托信息", "name": "bondDelegationMsg" },
+              { "label": "成交信息", "name": "bondBargainMsg" },
+              { "label": "资金流水", "name": "bondFundCondition" },
+              { "label": "查询交割单", "name": "bondDeliveryOrder" },
+              { "label": "银证转账", "name": "bondBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "4": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "shDeal" },
+              { "label": "查撤委托", "name": "shQueryRepeal" },
+              { "label": "委托信息", "name": "shDelegationMsg" },
+              { "label": "成交信息", "name": "shBargainMsg" },
+              { "label": "资金流水", "name": "shFundCondition" },
+              { "label": "查询交割单", "name": "shDeliveryOrder" },
+              { "label": "银证转账", "name": "shBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "5": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "szDeal" },
+              { "label": "查撤委托", "name": "szQueryRepeal" },
+              { "label": "委托信息", "name": "szDelegationMsg" },
+              { "label": "成交信息", "name": "szBargainMsg" },
+              { "label": "资金流水", "name": "szFundCondition" },
+              { "label": "查询交割单", "name": "szDeliveryOrder" },
+              { "label": "银证转账", "name": "szBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "6": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "三键下单", "name": "financialNewOrder" },
+              { "label": "传统下单", "name": "financialOldOrder" },
+              { "label": "查撤委托", "name": "financialQueryRepeal" },
+              { "label": "委托信息", "name": "financialDelegationMsg" },
+              { "label": "成交信息", "name": "financialBargainMsg" },
+              { "label": "合约品种", "name": "financialContract" },
+              { "label": "银证转账", "name": "financialBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "7": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "aStocksDeal" },
+              { "label": "查撤委托", "name": "aQueryRepeal" },
+              { "label": "委托信息", "name": "aDelegationMsg" },
+              { "label": "成交信息", "name": "aBargainMsg" },
+              { "label": "资金流水", "name": "aFundCondition" },
+              { "label": "查询交割单", "name": "deliveryOrder" },
+              { "label": "银证转账", "name": "aBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "8": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "下单", "name": "firmOfferOrder" },
+              { "label": "查撤委托", "name": "realityQueryRepeal" },
+              { "label": "委托信息", "name": "realityDelegationMsg" },
+              { "label": "成交信息", "name": "realityBargainMsg" },
+              { "label": "点差参数", "name": "realitySpread" },
+              { "label": "银汇转账", "name": "realityBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "9": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "开仓", "name": "wareHouse" },
+              { "label": "查撤委托", "name": "nonfirmQueryRepeal" },
+              { "label": "委托信息", "name": "nonfirmDelegationMsg" },
+              { "label": "成交信息", "name": "nonfirmBargainMsg" },
+              { "label": "商品品种", "name": "goodsEdition" },
+              { "label": "银汇转账", "name": "nonfirmBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "11": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "担保品买卖", "name": "collateralTrading" },
+              { "label": "融资买入", "name": "financingBuy" },
+              { "label": "融券卖出", "name": "securitiesSell" },
+              { "label": "买券还券", "name": "securityReturn" },
+              { "label": "卖券还款", "name": "fundReturn" },
+              { "label": "直接还款/券", "name": "directReturn" },
+              { "label": "查撤委托", "name": "queryRepeal" },
+              { "label": "委托信息", "name": "delegationMsg" },
+              { "label": "成交信息", "name": "bargainMsg" },
+              { "label": "资金流水", "name": "fundCondition" },
+              { "label": "担保品划转", "name": "collateralTransfer" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        {
+          "label": "考评得分",
+          "children": []
+        }
+      ],
+    "12": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "期权交易", "name": "optionTrading" },
+              { "label": "股票交易", "name": "stockTrading" },
+              { "label": "锁定/解锁", "name": "lockStock" },
+              { "label": "行权", "name": "exercise" },
+              { "label": "查撤委托", "name": "cancelAttorney" },
+              { "label": "委托信息", "name": "optionDelegationMsg" },
+              { "label": "成交信息", "name": "bargainMsg" },
+              { "label": "期权合约", "name": "optionContract" },
+              { "label": "行权结果", "name": "exerciseResult" },
+              { "label": "证衍转账", "name": "stockTransaction" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ],
+    "13": [
+        {
+          "label": "委托下单",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "买入卖出", "name": "hkStocksDeal" },
+              { "label": "查撤委托", "name": "hkQueryRepeal" },
+              { "label": "委托信息", "name": "hkDelegationMsg" },
+              { "label": "成交信息", "name": "hkBargainMsg" },
+              { "label": "资金流水", "name": "hkFundCondition" },
+              { "label": "银证转账", "name": "hkBankSecurities" }
+            ],
+            "fIndex": 0
+          }
+        },
+        { "label": "我的自选", "name": "" },
+        { "label": "我的持仓", "name": "" },
+        { "label": "龙虎榜", "name": "" },
+        {
+          "label": "我的战绩",
+          "hasChildren": true,
+          "children": {
+            "list": [
+              { "label": "我的收益", "name": "profit" },
+              { "label": "当前仓位", "name": "holding" },
+              { "label": "资产分布", "name": "distribute" },
+              { "label": "资产排名", "name": "rank" },
+              { "label": "综合评分", "name": "score" },
+              { "label": "风险指标", "name": "risk" }
+            ],
+            "fIndex": 4
+          }
+        },
+        { "label": "考评得分", "name": "" }
+      ]
+}

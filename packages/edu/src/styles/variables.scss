@@ -1,0 +1,49 @@
+$app-nav-height: 64px;
+$sub-nav-height: 63px;
+
+$primary-light-color: #E0585B;
+$primary-dark-color: #D9464A;
+$rise-color-green: #F33A52;
+$auxiliary-color-green: #00C642;
+$fall-color-green: #07C180;
+$auxiliary-color-blue: #1D64F2;
+$drop-down-active-bg: #FAF5F5;
+
+$input-bg-white: #FFFFFF;
+$input-bg-gray: #F4F4F4;
+$input-border-color: #DDDDDD;
+
+$primary-text-color: #222222;
+$deputy-text-color: #505050;
+$gray-text-color: #8D8D8D;
+$hint-text-color: #BBBBBB;
+$divide-line-color: #EBEBEB;
+
+$zh-regular: Microsoft YaHei, Microsoft YaHei-Regular;
+$zh-bold: Microsoft YaHei, Microsoft YaHei-Bold;
+$en-regular: Arial, Arial-Regular;
+$en-bold: Arial, Arial-Bold;
+
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  app-nav-height: $app-nav-height;
+  primary-light-color: $primary-light-color;
+  primary-dark-color: $primary-dark-color;
+  auxiliary-color-green: $auxiliary-color-green;
+  auxiliary-color-blue: $auxiliary-color-blue;
+  drop-down-active-bg: $drop-down-active-bg;
+  input-bg-white: $input-bg-white;
+  input-bg-gray: $input-bg-gray;
+  input-border-color: $input-border-color;
+  primary-text-color: $primary-text-color;
+  deputy-text-color: $deputy-text-color;
+  gray-text-color: $gray-text-color;
+  hint-text-color: $hint-text-color;
+  divide-line-color: $divide-line-color;
+  zh-regular: $zh-regular;
+  zh-bold: $zh-bold;
+  en-regular: $en-regular;
+  en-bold: $en-bold;
+}

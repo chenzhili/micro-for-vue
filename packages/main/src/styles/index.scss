@@ -1,0 +1,56 @@
+/* 全局样式 */
+html,
+body,
+#app{
+  font-family: $zh-regular, $en-regular;
+  -webkit-font-smoothing: antialiased; // 文本抗锯齿
+  -moz-osx-font-smoothing: grayscale; // 文本抗锯齿
+}
+
+/* dialog 相关 开始 */
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.ql-dialog-modal {
+  z-index: 2000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #000;
+}
+
+// 在使用transition组件的同时内部的组件的动画效果
+.fade-in-linear-enter-active #ql-confirm-dialog-conten,
+.fade-in-linear-leave-active #ql-apply-dialog-conten {
+  animation: msgbox-fade-in 0.3s;
+}
+
+.fade-in-linear-leave-active #ql-confirm-dialog-conten,
+.fade-in-linear-leave-active #ql-apply-dialog-conten {
+  animation: msgbox-fade-in 0.3s reverse;
+}
+
+/* dialog 相关 结束 */
+
+html,
+body,
+#app {
+  padding: 0;
+  margin: 0;
+}
+
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   height: 5px;
+// }
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 10px;
+//   background-color: $primary-light-color;
+// }
+// ::-webkit-scrollbar-track {
+//   background-color: #ffffff;
+// }

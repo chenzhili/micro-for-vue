@@ -1,0 +1,42 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.8",
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "eslint": "^7.21.0",
+    "husky": "^5.2.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhili/micro-for-vue"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenzhili/micro-for-vue/issues"
+  },
+  "homepage": "https://github.com/chenzhili/micro-for-vue#readme",
+  "scripts": {
+    "start-edu": "yarn workspace edu run start",
+    "start-main": "yarn workspace main run start"
+  },
+  "gitHooks": {
+    "pre-commit": "lerna run lint-staged --parallel"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lerna run lint-staged --parallel"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "vue": "^3.0.7"
+  }
+}
